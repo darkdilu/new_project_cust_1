@@ -1,0 +1,39 @@
+canvas{
+
+width: 600px;
+
+height: 600px;
+background-color: rgb(73, 73, 73) ;
+
+
+}
+
+
+.partSelector {
+    margin-top: 20px;
+  }
+  
+  .partDetails {
+    margin-top: 20px;
+  }
+  
+  .imageGallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .imageContainer {
+    text-align: center; /* Center text and price under images */
+  }
+  
+  .imageGallery img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .imageContainer p {
+    margin-top: 5px; /* Add some space between image and price */
+  }
